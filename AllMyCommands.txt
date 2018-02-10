@@ -1,7 +1,5 @@
-
 ls
 git init
-cd SE-repository-sprints
 git remote add origin https://github.com/abdo16khaled/SE-repository-sprints.git
 git remote -v
 git pull origin master
