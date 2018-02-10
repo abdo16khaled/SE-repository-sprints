@@ -1,1 +1,32 @@
 
+ls
+git remote add origin https://github.com/abdo16khaled/SE-repository-sprints.git
+git remote -v
+git pull origin master
+git rm file\ 2
+git commit -m"Feat: remove file 2"
+git reset --hard Head~1
+git status
+git branch ReadMe
+git add README.md
+git commit -m"Feat: Add information into README.md file"
+git status
+git checkout master
+git merge ReadMe
+git add AllMyCommands.txt
+git commit -m"Feat: Add all command lines to the file"
+git pull origin master
+git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
