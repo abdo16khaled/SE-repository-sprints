@@ -1,11 +1,15 @@
 
 ls
+git 
 git remote add origin https://github.com/abdo16khaled/SE-repository-sprints.git
 git remote -v
+cd SE-repository-sprints.git
 git pull origin master
 git rm file\ 2
 git commit -m"Feat: remove file 2"
 git reset --hard Head~1
+git pull origin master
+git push origin master
 git status
 git branch ReadMe
 git add README.md
